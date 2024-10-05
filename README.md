@@ -1,7 +1,8 @@
 Schedule Class
 The Schedule object is necessary in creating coupon schedules or call schedules. Schedule object constructors have the following signature:
 
-## Here we have generated a Schedule object that will contain dates between effective_date and
+## Here we have generated a Schedule object that will contain dates between effective_date
+
 termination_date with the tenor specifying the Period to be Monthly. The calendar object is
 used for determining holidays. Here we have chosen the convention to be the day following holidays.
 That is why we see that holidays are excluded in the list of dates.
